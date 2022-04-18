@@ -1,0 +1,21 @@
+//the first time to study programming c, with K&R, hoping I can do it well
+this is for operating system course, no solid skill for c programming is too painful 
+
+1.54 line counting p23, this explains my confusion, which is, when there is more than one "=", the sequence of these = is
+（赋值结合次序由右向左）（猜测：如果由左向右的话，则每个变量到最后值绝大概率都不一样，nw给nl，nc给nw）from right to left,
+for example,nl = nw = nc = 0 equals to nl = (nw = (nc = 0)); 
+this one explains how some complex function call is done which i meet 
+on the CS61A SITP course, using python for programming.
+
+so, = right to left
+operator || means OR
+escape sequence \t means tab character
+operator && means AND
+&& or || left to right
+此处，当逻辑运算知道c是一个空格，那么它就不可能是\n或\t，则之后的test其是否为\n或\t就不做了。
+另 brace 和 parenthesis, brace指{}，parenthesis指().
+
+1.6 数组 代码对着代码本身跑了一遍，把代码中的数字字符等做数量统计， 输出结果中digits = 9 3 0 0 0 0 0 0 0 1 ，
+此处 9 为整段代码中 0 出现了9次，3 为整段代码中1出现了三次......
+int ndigit[10]; ndigit数组中有十个int整形变量。//
+
